@@ -2,7 +2,9 @@
 
 <div align="center">
 
-**A comprehensive digital dashboard for managing CAR-T cell therapy workflows in autoimmune diseases**
+**SOSTAC® Marketing Plan — Resetting the Immune System**
+
+**M9 Strategic Marketing in Life Sciences — Master Course Project**
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -15,11 +17,11 @@
 
 ## 📖 About
 
-**Recellion ImmunoReset** is an interactive, single-page web dashboard designed to demonstrate the end-to-end digital platform concept for managing mRNA CAR-T cell therapy in autoimmune diseases — specifically **Systemic Lupus Erythematosus (SLE)** and **Rheumatoid Arthritis (RA)**.
+This project was developed as part of the **M9 Strategic Marketing in Life Sciences** master course. It presents the **SOSTAC® Marketing Plan** for **Recellion ImmunoReset** — an off-the-shelf mRNA CAR-T cell therapy targeting refractory autoimmune diseases, specifically **Systemic Lupus Erythematosus (SLE)** and **Rheumatoid Arthritis (RA)** in the EU market.
 
-This project was developed as a course/demo platform to showcase how a digital health product could support the full patient journey: from screening and enrollment, through manufacturing and infusion logistics, to adverse event monitoring and long-term clinical analytics.
+The interactive, single-page web dashboard demonstrates the end-to-end digital platform concept for managing the full patient journey: from screening and enrollment, through manufacturing and infusion logistics, to adverse event monitoring, clinical analytics, and strategic marketing planning.
 
-> ⚠️ **Disclaimer:** This is a demonstration/educational platform. It does not process real patient data, and it is not intended for clinical use.
+> ⚠️ **Disclaimer:** This is a demonstration/educational platform developed for academic purposes. It does not process real patient data, and it is not intended for clinical use.
 
 ---
 
@@ -190,9 +192,17 @@ car-t-dashboard-course/
 
 ---
 
-## 👨‍💻 Author
+## 👥 Team
 
-**Ugur Ersoz**
+This project was created as a group project for the **M9 Strategic Marketing in Life Sciences** master course:
+
+| Team Member | 
+|---|
+| **Asaf Ronel** |
+| **Maiia Talashvili** |
+| **Daria Krasavina** |
+| **Ugur Ersöz** |
+| **Natalia Inozemtseva** |
 
 ---
 
@@ -205,5 +215,7 @@ This project is open source and available under the [MIT License](LICENSE).
 <div align="center">
 
 *Built with ❤️ for the future of autoimmune disease treatment*
+
+*M9 Strategic Marketing in Life Sciences — Master Course Project*
 
 </div>
