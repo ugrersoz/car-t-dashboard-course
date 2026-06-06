@@ -1,221 +1,209 @@
-# 🧬 Recellion — ImmunoReset Digital Platform
-
 <div align="center">
 
-**SOSTAC® Marketing Plan — Resetting the Immune System**
+# Recellion — ImmunoReset Digital Platform
 
-**M9 Strategic Marketing in Life Sciences — Master Course Project**
+**An end-to-end digital dashboard for an off-the-shelf mRNA CAR-T therapy targeting refractory autoimmune disease in the EU market.**
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Live demo](https://img.shields.io/badge/demo-vercel-000?logo=vercel&logoColor=white)](https://car-t-dashboard-course.vercel.app)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](../LICENSE)
+[![Course](https://img.shields.io/badge/HTW%20Berlin-M9%20Strategic%20Marketing-7b3fe4)](#academic-context)
+[![Status](https://img.shields.io/badge/status-prototype-orange)](#project-status)
+[![SOSTAC](https://img.shields.io/badge/framework-SOSTAC%C2%AE-ff69b4)](#sostac-marketing-framework)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JS](https://img.shields.io/badge/JavaScript-vanilla-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+[Live demo](https://car-t-dashboard-course.vercel.app) · [Features](#features) · [Patient journey](#patient-journey-architecture) · [SOSTAC](#sostac-marketing-framework) · [Run locally](#getting-started) · [Roadmap](#roadmap) · [Team](#team)
 
 </div>
 
 ---
 
-## 📖 About
+## Overview
 
-This project was developed as part of the **M9 Strategic Marketing in Life Sciences** master course. It presents the **SOSTAC® Marketing Plan** for **Recellion ImmunoReset** — an off-the-shelf mRNA CAR-T cell therapy targeting refractory autoimmune diseases, specifically **Systemic Lupus Erythematosus (SLE)** and **Rheumatoid Arthritis (RA)** in the EU market.
+**Recellion ImmunoReset** is a strategic-marketing concept for an off-the-shelf mRNA CAR-T cell therapy aimed at refractory **Systemic Lupus Erythematosus (SLE)** and **Rheumatoid Arthritis (RA)** in the EU. This repository contains the **interactive single-page dashboard** that accompanies the SOSTAC® marketing plan — covering the full patient journey from screening and enrollment through manufacturing logistics, infusion, adverse-event monitoring, clinical analytics, and commercial planning.
 
-The interactive, single-page web dashboard demonstrates the end-to-end digital platform concept for managing the full patient journey: from screening and enrollment, through manufacturing and infusion logistics, to adverse event monitoring, clinical analytics, and strategic marketing planning.
+The artefact was produced for the **M9 Strategic Marketing in Life Sciences** master-course module at HTW Berlin. It is an academic demonstration; it is **not** a medical device.
 
-> ⚠️ **Disclaimer:** This is a demonstration/educational platform developed for academic purposes. It does not process real patient data, and it is not intended for clinical use.
+> ⚠️ **Disclaimer.** This dashboard does not process real patient data, is not clinically validated, and is not authorised by the EMA, FDA, or any other regulator. It must not be used for diagnosis, treatment, or commercial decision-making.
 
----
+## Project status
 
-## ✨ Features
-
-### 📊 Dashboard Overview
-- Real-time summary cards: active patients, manufacturing status, adverse event alerts, and 3-month remission rates
-- Visual chart placeholders for Treatment Journey Progress and Toxicity Trend Analysis
-- Animated metric cards with gradient styling
-
-### 🔍 Patient Screening & Enrollment
-- Eligibility questionnaire form (Patient ID, Primary Diagnosis, Refractory Status)
-- Interactive eligibility assessment with real-time feedback
-- Candidate patient list with priority status indicators (Green/Yellow/Red)
-
-### 📅 Therapy Logistics & Scheduling
-- mRNA CAR-T production pipeline with animated progress bars
-- Appointment scheduling for leukapheresis, infusion, and follow-ups
-- Automated reminder system simulation
-
-### 🛡️ Adverse Event Monitoring
-- Active patient monitoring dashboard for CRS and ICANS detection
-- Real-time symptom reporting form (Patient ID, Symptom, Severity 1–5)
-- Status-based alerting system (Grade 1 CRS, Stable, etc.)
-
-### 📈 Clinical Insights & Analytics
-- Long-term remission rate tracking (SLE & RA)
-- Adverse event trend analysis
-- Patient Reported Outcomes (PROs)
-- Cost-effectiveness modeling (Recellion vs. lifelong biologics)
-
-### 📚 Patient & HCP Resources
-- Patient journey educational videos (placeholder)
-- Healthcare Professional (HCP) training modules
-- Frequently Asked Questions (FAQs)
-- Support group information and advocacy contacts
-
-### 🎯 SOSTAC® Marketing Framework
-Full strategic marketing plan covering all six SOSTAC® stages:
-1. **Situation Analysis** — Market size, competitive landscape, customer segments
-2. **Objectives** — Regulatory milestones, market penetration, revenue targets
-3. **Strategy** — Positioning, segmentation, go-to-market, communication
-4. **Tactics** — Clinical development, HCP education, patient advocacy, market access
-5. **Action** — Timeline from preclinical (Q2 2025) to EU launch (Q2 2029)
-6. **Control** — KPIs across clinical, regulatory, commercial, financial, and digital metrics
-
-### 🎯 Marketing Objectives
-- Year 1 & Year 2 targets: certified centers, physician training, patient treatment volumes, market share, and reimbursement goals
-
-### 💰 Cost Comparison Calculator
-- Interactive tool comparing lifetime costs of traditional biologics vs. Recellion's one-time CAR-T therapy
-- Configurable annual treatment cost, treatment duration, and CAR-T cost inputs
-
-### 🔬 Treatment Process Demo
-- Step-by-step interactive walkthrough of the mRNA-LNP CAR-T treatment process:
-  1. T-cell Collection (Leukapheresis)
-  2. Engineer-Reprogram (mRNA-LNP Delivery)
-  3. Expansion
-  4. Chemotherapy & Infusion
-  5. Autoreactive Cell Elimination (Immune Reset)
-
-### 💵 Budget Analysis
-- Detailed Phase 2 & Phase 3 clinical trial budget breakdown
-- Fully-loaded production cost per patient: ~$3,970
-
-### 🤝 Key Partners
-- Academic & clinical research centers
-- Contract Manufacturing Organizations (CMOs)
-- Biotech & pharma companies
-- Patient advocacy groups
-- Regulatory consultants
-- Technology providers (CRISPR, TALEN, viral vectors)
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
+| | |
 |---|---|
-| **HTML5** | Semantic page structure |
-| **CSS3** | Glassmorphism design, gradients, animations, responsive layout |
-| **Vanilla JavaScript** | SPA navigation, interactive demos, form handling |
-| **Font Awesome 6** | Icon library for UI elements |
+| **Phase** | Concept prototype — academic deliverable |
+| **Course module** | M9 Strategic Marketing in Life Sciences, HTW Berlin |
+| **Submitted** | 2025 |
+| **Live URL** | <https://car-t-dashboard-course.vercel.app> |
+| **Source size** | Single `index.html` (~1,668 lines), no build step |
 
-**No frameworks or build tools required** — the entire application is a single `index.html` file (~1,668 lines) that can be opened directly in any modern browser.
+## Features
 
----
+The dashboard is organised around nine working modules:
 
-## 🚀 Getting Started
+| Module | What it shows |
+|---|---|
+| 📊 **Dashboard overview** | Active-patient, manufacturing, adverse-event, and 3-month remission summary cards with animated metric tiles |
+| 🔍 **Screening & enrollment** | Eligibility questionnaire (Patient ID, primary diagnosis, refractory status) with priority-coded candidate list (green / yellow / red) |
+| 📅 **Therapy logistics** | mRNA CAR-T production pipeline progress bars; scheduling for leukapheresis, infusion, and follow-ups; automated reminder simulation |
+| 🛡️ **Adverse-event monitoring** | CRS and ICANS surveillance with severity 1–5 reporting and status-based alerting (e.g. Grade 1 CRS, Stable) |
+| 📈 **Clinical insights** | Long-term remission tracking for SLE and RA, AE trend analysis, Patient-Reported Outcomes (PROs), cost-effectiveness vs. lifelong biologics |
+| 📚 **Patient & HCP resources** | Patient-journey explainer slots, HCP training modules, FAQs, advocacy-group contacts |
+| 🎯 **SOSTAC® plan** | Full six-stage strategic marketing plan (see [below](#sostac-marketing-framework)) |
+| 💰 **Cost-comparison calculator** | Configurable inputs comparing lifetime biologics spend against Recellion's one-time CAR-T cost |
+| 🔬 **Treatment process demo** | Five-step walkthrough: leukapheresis → mRNA-LNP reprogramming → expansion → chemotherapy & infusion → autoreactive-cell elimination |
 
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Edge, Safari)
-- No server or build tools needed
+A separate **budget analysis** view breaks down Phase 2 / Phase 3 clinical-trial spend and a fully-loaded production cost of **~$3,970 per patient**.
 
-### Run Locally
+## Patient-journey architecture
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/ugrersoz/car-t-dashboard-course.git
-   ```
+```mermaid
+flowchart LR
+    A[Patient screening<br/>& eligibility] --> B[Enrollment<br/>priority-coded list]
+    B --> C[Leukapheresis<br/>T-cell collection]
+    C --> D[mRNA-LNP<br/>reprogramming]
+    D --> E[Cell expansion<br/>QC release]
+    E --> F[Lymphodepleting<br/>chemotherapy]
+    F --> G[Infusion]
+    G --> H[Adverse-event<br/>monitoring<br/>CRS / ICANS]
+    H --> I[Long-term<br/>remission tracking]
+    I --> J[PROs &<br/>cost-effectiveness<br/>analytics]
+```
 
-2. **Navigate to the project:**
-   ```bash
-   cd car-t-dashboard-course/car-t-main
-   ```
+Each node in the diagram corresponds to a module in the live dashboard.
 
-3. **Open in browser:**
-   ```bash
-   # Simply open the file
-   start index.html        # Windows
-   open index.html          # macOS
-   xdg-open index.html      # Linux
-   ```
+## SOSTAC® marketing framework
 
-   Or use a local development server:
-   ```bash
-   # Using Python
-   python -m http.server 8000
+The dashboard embeds the full strategic plan across the six SOSTAC® stages:
 
-   # Using Node.js
-   npx serve .
-   ```
+| Stage | Coverage in dashboard |
+|---|---|
+| **S — Situation analysis** | EU market sizing for SLE / RA, competitive landscape, customer segments |
+| **O — Objectives** | Regulatory milestones, market-penetration targets, revenue plan |
+| **S — Strategy** | Positioning, segmentation, go-to-market, communication strategy |
+| **T — Tactics** | Clinical-development plan, HCP education, patient advocacy, market-access tactics |
+| **A — Action** | Timeline from preclinical (Q2 2025) through EU launch (Q2 2029) |
+| **C — Control** | KPIs across clinical, regulatory, commercial, financial, and digital metrics |
 
----
+**Year-1 / Year-2 marketing objectives** — certified centres, physician training volumes, patient throughput, market share, and reimbursement coverage — are tracked in their own section.
 
-## 📐 Design System
+## Tech stack
 
-The dashboard features a modern, premium design with:
+**Current (MVP-0 / academic deliverable)**
 
-- **Color Palette:**
-  - Primary Gradient: `#ff69b4` (Hot Pink) → `#8a2be2` (Blue Violet)
-  - Background: Soft cream-pink gradient (`#fce4ec` → `#e1bee7` → `#fff3e0`)
-  - Status Colors: Green (success), Yellow (warning), Red (alert)
+- **HTML5** — semantic single-page structure
+- **CSS3** — glassmorphism (`backdrop-filter: blur(20px)`), gradients, shimmer animations, responsive layout (breakpoint at 768px)
+- **Vanilla JavaScript** — SPA-style navigation, interactive demos, form handling, calculator logic
+- **Font Awesome 6** — icon set
+- **Inter / Segoe UI** — typography
 
-- **UI Components:**
-  - Glassmorphism cards with `backdrop-filter: blur(20px)`
-  - Animated progress bars with shimmer effect
-  - Hover micro-animations (translateY, scale, rotate)
-  - Slide-in alerts with auto-dismiss
+No frameworks, no build pipeline, no dependencies installed at clone time. Hosted on **Vercel** as a static site with SPA-style rewrites (see [`vercel.json`](vercel.json)).
 
-- **Typography:** Inter / Segoe UI font family
+**Planned (production roadmap)**
 
-- **Responsive:** Full mobile support with breakpoint at 768px
+`React` · `Node.js / Fastify` · `PostgreSQL` · `Chart.js / D3.js` · `Auth (HCP / Patient roles)` · `Real-time AE alerting` · `EU localisation (DE / FR / ES / IT)`
 
----
+## Design system
 
-## 📁 Project Structure
+- **Primary gradient** — `#ff69b4` (hot pink) → `#8a2be2` (blue violet)
+- **Background** — soft cream-pink wash (`#fce4ec` → `#e1bee7` → `#fff3e0`)
+- **Status palette** — green (success) · yellow (warning) · red (alert)
+- **Components** — glassmorphism cards, animated progress bars with shimmer, hover micro-animations (translateY / scale / rotate), slide-in toast alerts with auto-dismiss
+
+## Getting started
+
+### Option A — view the deployed demo
+
+Open <https://car-t-dashboard-course.vercel.app> in any modern browser.
+
+### Option B — run locally
+
+Zero build steps, zero dependencies:
+
+```bash
+git clone https://github.com/ugrersoz/car-t-dashboard-course.git
+cd car-t-dashboard-course/car-t-main
+
+# Quick open
+start index.html        # Windows
+open  index.html        # macOS
+xdg-open index.html     # Linux
+```
+
+For a proper local server (recommended so SPA rewrites and `fetch` behave correctly):
+
+```bash
+# Python 3
+python -m http.server 8080
+# then visit http://localhost:8080
+```
+
+```bash
+# Node
+npx serve .
+```
+
+## Project structure
 
 ```
 car-t-dashboard-course/
-└── car-t-main/
-    ├── index.html          # Complete single-page application
-    ├── README.md           # Project documentation
-    └── .github/
-        └── workflows/      # GitHub Actions (if any)
+├── LICENSE                     # MIT
+└── car-t-main/                 # All application source (kept nested to match deploy root)
+    ├── index.html              # Single-page dashboard (~1,668 lines)
+    ├── vercel.json             # Static deploy + SPA rewrite rules
+    ├── README.md               # This file
+    ├── CONTRIBUTING.md
+    └── .gitignore
 ```
 
----
+## Roadmap
 
-## 🗺️ Roadmap
+- [ ] Replace placeholder charts with **Chart.js / D3.js** for real visualisation
+- [ ] Add a backend API for persistent patient data
+- [ ] Implement role-based authentication (HCP vs. patient)
+- [ ] Wire real-time adverse-event alerting (push / SMS / email)
+- [ ] Localise for EU markets (DE, FR, ES, IT)
+- [ ] Generate downloadable PDF reports for clinical insights
 
-- [ ] Integrate real chart libraries (Chart.js / D3.js) for data visualization
-- [ ] Add backend API for persistent patient data
-- [ ] Implement user authentication (HCP vs. Patient roles)
-- [ ] Connect real-time adverse event alerting system
-- [ ] Localization for EU markets (DE, FR, ES, IT)
-- [ ] PDF report generation for clinical insights
+## Regulatory & commercial context
 
----
+The Recellion concept is positioned against the regulatory frameworks that govern cell and gene therapy in the EU. The dashboard documents — but does not implement — alignment with:
 
-## 👥 Team
+- **EU Advanced Therapy Medicinal Products (ATMP) Regulation** — Regulation (EC) No. 1394/2007
+- **EU Clinical Trials Regulation** — Regulation (EU) No. 536/2014
+- **GDPR** — patient-data handling
+- **GMP for ATMPs** — EudraLex Vol. 4 Part IV
+- **ISO 13485** — quality management for medical devices
+- **EMA PRIME / Orphan designation** pathways for refractory autoimmune indications
 
-This project was created as a group project for the **M9 Strategic Marketing in Life Sciences** master course:
+## Academic context
 
-| Team Member | 
-|---|
-| **Asaf Ronel** |
-| **Maiia Talashvili** |
-| **Daria Krasavina** |
-| **Ugur Ersöz** |
-| **Natalia Inozemtseva** |
+| | |
+|---|---|
+| **Institution** | [HTW Berlin](https://www.htw-berlin.de/) — University of Applied Sciences |
+| **Module** | M9 — Strategic Marketing in Life Sciences |
+| **Deliverable** | SOSTAC® Marketing Plan + interactive dashboard prototype |
 
----
+## Team
 
-## 📄 License
+| Member | Contribution |
+|---|---|
+| **Asaf Ronel** | Strategic-marketing analysis, SOSTAC® plan |
+| **Maiia Talashvili** | Financial modelling, cost-comparison logic |
+| **Daria Krasavina** | Clinical content, patient-journey design |
+| **Ugur Ersöz** | Dashboard implementation, UI / UX |
+| **Natalia Inozemtseva** | Market research, communication strategy |
 
-This project is open source and available under the [MIT License](LICENSE).
+## Contributing
+
+This is a frozen academic deliverable, but pull requests for typos, accessibility, performance, and documentation fixes are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+Distributed under the **MIT License**. See [LICENSE](../LICENSE) for full text.
 
 ---
 
 <div align="center">
-
-*Built with ❤️ for the future of autoimmune disease treatment*
-
-*M9 Strategic Marketing in Life Sciences — Master Course Project*
-
+<sub>Built at HTW Berlin · 2025 · For the future of autoimmune-disease treatment</sub>
 </div>
